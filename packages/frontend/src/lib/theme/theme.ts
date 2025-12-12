@@ -31,7 +31,7 @@ export const getLogo = (autoTheme: boolean) => {
 
   switch (theme) {
     case 'christmas':
-      return '/tipi-christmas.png';
+      return '/zerOS-logo.png';
     default:
       return '/tipi.png';
   }
