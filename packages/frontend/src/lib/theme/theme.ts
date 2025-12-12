@@ -24,7 +24,7 @@ export const getAutoTheme = (): Theme => {
 
 export const getLogo = (autoTheme: boolean) => {
   if (!autoTheme) {
-    return '/tipi.png';
+    return '/zerOS-logo.png';
   }
 
   const theme = getAutoTheme();
@@ -33,6 +33,6 @@ export const getLogo = (autoTheme: boolean) => {
     case 'christmas':
       return '/zerOS-logo.png';
     default:
-      return '/tipi.png';
+      return '/zerOS-logo.png';
   }
 };
